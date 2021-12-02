@@ -41,14 +41,14 @@ function resta(x, y) {
 }
 
 function multiplica(x, y) {
-  // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
+  return x*y
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  return x/y
   
 }
 
@@ -56,13 +56,20 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if(x===y){
+    return True
+  }else{
+    return False
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  if(str1===str2){
+    return True
+  }else{
+    return False
   
 }
 
@@ -70,7 +77,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if(num<90){
+    return True 
+  }else{
+    return False
 }
 
 function mayorQueCincuenta(num) {
